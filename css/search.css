@@ -1,0 +1,74 @@
+.container{
+  margin: 50px 0 0 0;
+  text-align: center;
+
+}
+.logo{
+  width: 332px;
+  height: 151px;
+  margin-bottom: 50px;
+}
+.box{
+  width: 580px;
+  /* height: 800px; */
+  margin: 0 auto;
+  text-align: left ;
+}
+/* .tabs{
+  display: block;
+  
+
+} */
+.tabs div:first-child{
+  text-align: center;
+  display: inline-block;
+  width: 80px;
+  height: 32px;
+  line-height:32px;
+  border-radius: 4px 4px 0 0;
+}
+.tabs div:nth-child(2){
+  text-align: center;
+  display: inline-block;
+  width: 80px;
+  height: 32px;
+  line-height:32px;
+}
+.tab-active{
+  background-color: #fe6603;
+
+  color: #ffffff;
+
+}
+
+.ipt{
+  vertical-align:middle;
+  padding-left: 10px;
+  height: 40px;
+  width:500px;
+  border: 2px solid #fe6603;
+}
+.ipt::placeholder{
+  color: #808080;
+}
+.btnSearch{
+  width:80px;
+  height:40px;
+  color: #fff;
+  background-color: #fe6603;
+  border: 0;
+  vertical-align:middle;
+}
+#suggest-list{
+  border: 1px solid#cCC;
+  display: none;
+}
+.suggest-item{
+  line-height: 30px;
+  padding-left:5px;
+}
+.suggest-item:hover{
+  /* 鼠标移入变成手状 */
+  cursor: pointer;
+  background-color: #eee;
+}
